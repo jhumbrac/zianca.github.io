@@ -12,6 +12,10 @@ body {
 #slogan {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: #605A5B;
+	font-family: 'Quicksand', sans-serif; 
+	font-weight: 400;
+	size: 14px;
 }
 
 #toplinks {
