@@ -1,12 +1,12 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 
-@import url(https://fonts.googleapis.com/css?family=Cardo);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
 
 body {
 	color: #605A5B;
 	font-weight: lighter;
 	font-size: 16px;
-	font-family: font-family: 'Cardo', serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 #slogan {
@@ -17,12 +17,12 @@ body {
 
 #toplinks {
 	font-size: 16px;
-    word-spacing: 50px;
-    padding-top: 20px;
-    padding-left:20px;
+    	word-spacing: 50px;
+    	padding-top: 20px;
+    	padding-left:20px;
 }
 
 footer {
 	font-size: 16px;
-    word-spacing: 50px;
+    	word-spacing: 50px;
 }
