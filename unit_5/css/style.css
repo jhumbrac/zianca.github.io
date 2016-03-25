@@ -1,26 +1,37 @@
-* {margin:0;padding:0;box-sizing:border-box;}
-
 @import url(https://fonts.googleapis.com/css?family=Khula:400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Fauna+One);
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+.clearfix:after {
+content:"footer";
+height:0;
+visibility:hidden;
+display:block;
+clear:both;
+}
 
 body {
 	color: #605A5B;
 	font-family: 'Khula', sans-serif;
 	font-weight: 300;
-	font-size: 30px
-	word-spacing: 30px;
+	font-size: 30px;
+	background-color: green;
+}
+
+header {
+	padding: 1em;
 }
 
 nav {
-	float: left;
-	margin-top: 65px;
-	margin-left: 20px;
-	display: inline block;
 	font-size: 20px;
+	padding-top: 62px;
+	background-color: yellow;
 }
 
 nav a {
 	margin-right: 20px;
+	padding-left: 1%;
 }
 
 h1 {
@@ -32,19 +43,22 @@ h1 {
 }
 
 footer {
-	margin-top: 20px;
-	font-size: 20px;
-	display: inline-block;
-	float: left;
-}
-
-footer a {
+	padding: 2em;
 	margin-right: 20px;
+	font-size: 25px;
+	background-color: gray;
 }
 
-.flats {
+footer a{
+	margin-left: 10px;
+}
+
+img {
 	width: 100%;
-	margin-top: 30px;
+}
+
+.designservices {
+	background-color: blue;
 }
 
 .logo {
@@ -58,10 +72,10 @@ footer a {
 	margin-top: 30px;
 	float:left;
 	font-size: 20px;
-	margin-left: 10px;
-	margin-right: 10px;
-	width: 30%;
+	margin-left: 2em;
+	width: 32%;
 	text-align: center;
+	background-color: red;
     }
 
 a:link {
