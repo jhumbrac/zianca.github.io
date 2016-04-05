@@ -28,7 +28,7 @@ nav {
 	padding-top: 62px;
 	background-color: #E8C66A;
 	border: 1px black solid;
-    padding: 20px;
+    	padding: 20px;
 }
 
 nav a {
@@ -54,11 +54,12 @@ footer {
 	font-size: 25px;
 	background-color: #FF957E;
 	border: 1px black solid;
-    padding: 20px;
+    	padding: 20px;
 }
 
 footer a {
 	margin-left: 10px;
+	clear: both;
 }
 
 
@@ -75,7 +76,7 @@ footer a {
 .services {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-    padding: 15px;
+    	padding: 15px;
 }
 
 .services a {
